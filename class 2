@@ -1,0 +1,89 @@
+class Main {
+  public static void main(String[] args) {
+    int num1 = 3;
+    int num2 = 5;
+    int num3 = 7;
+    System.out.println(num1);
+    System.out.println(num2);
+    System.out.println(num3);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int num1 = 3;
+    float num2 = 5;
+    System.out.println(num1+"   "+num2);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    char c1 = 'Y';
+    char c2 = 'a';
+    char c3 = 'r';
+    char c4 = 'i';
+    char c5 = 'n';
+    String str = c1 + "" + c2 + "" + c3 + "" + c4 + "" + c5;
+    System.out.println(str);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int num1 = 3;
+    int num2 = 5;
+    System.out.println(num1 + " is smaller then " + num2);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int num1 = 3;
+    int num2 = 5;
+    int num3 = 7;
+    int av = (num1 + num2 + num3) / 3;
+    System.out.println(av);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int a = 3;
+    int b = 4;
+    int c = a * a + b * b;
+    System.out.println(c);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int x = 3;
+    int y = 2 * x + 5;
+    System.out.println(y);
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    String str1 = "I like to study computer science";
+    String str2 = "and therefore ready to invest";
+    String str3 = "hours a day for practice";
+    int hours = 3;
+    System.out.println(str1 + str2 + hours + str3);
+  }
+}
