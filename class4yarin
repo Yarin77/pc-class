@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Main {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -77,5 +76,110 @@ class Main {
     char str3 = str1.charAt(1);
     char str4 = str1.charAt(2);
     System.out.println(str4 + "" + str3 + "" + str2 );
+  }
+}
+
+
+
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    System.out.println("enter a word");
+    Scanner sc = new Scanner(System.in);
+    String str1 = sc.nextLine();
+    char str2 = str1.charAt(0);
+    char str3 = str1.charAt(1);
+    char str4 = str1.charAt(2);
+    char str5 = str1.charAt(3);
+
+    if (str2 == 'a' || str2 == 'e' || str2 == 'i' || str2 == 'o' || str2 == 'u') {
+      str1 = str1.replace(str2, '*');
+    }
+    if (str3 == 'a' || str3 == 'e' || str3 == 'i' || str3 == 'o' || str3 == 'u') {
+      str1 = str1.replace(str3, '*');
+    }
+    if (str4 == 'a' || str4 == 'e' || str4 == 'i' || str4 == 'o' || str4 == 'u') {
+      str1 = str1.replace(str4, '*');
+    }
+    if (str5 == 'a' || str5 == 'e' || str5 == 'i' || str5 == 'o' || str5 == 'u') {
+      str1 = str1.replace(str5, '*');
+    }
+    System.out.println(str1);
+  }
+}
+
+
+
+import java.util.Random;
+public class Main
+{
+ public static void main(String []args)
+ {
+  int num;
+  Random r=new Random();
+  num=r.nextInt(100)+1;
+  System.out.println("Random number is "+num);
+  if (num /10 >= 1) {
+    System.out.println("The number is two digits");
+  }
+  else {
+    System.out.println("The number is one digit");
+  }
+  if (num % 2 == 0) {
+    System.out.println("The number is divisible by 2");
+  }
+  if (num % 3 == 0) {
+    System.out.println("The number is divisible by 3");
+  }
+ }
+}
+
+
+
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter a the y of point 1");
+    int y1 = sc.nextInt();
+    System.out.println("enter a the x of point 1");
+    int x1 = sc.nextInt();
+    System.out.println("enter a the y of point 2");
+    int y2 = sc.nextInt();
+    System.out.println("enter a the x of point 2");
+    int x2 = sc.nextInt();
+    double distance = Math.sqrt(Math.pow(y2 - y1, 2) + Math.pow(x2 - x1, 2));
+    System.out.println(distance);
+  }
+}
+
+
+
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter a radius");
+    double r = sc.nextDouble();
+    double area = 3.14 * Math.pow(r, 2);
+    System.out.println(area);
+    double circumference = 2 * 3.14 * r;
+    System.out.println(circumference);
+  }
+}
+
+
+
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter a side number 1");
+    int s1 = sc.nextInt();
+    System.out.println("enter a side number 2");
+    int s2 = sc.nextInt();
+    double num = s1 * s1 + s2 * s2;
+    double s3 = Math.sqrt(num);
+    System.out.println(s3);
   }
 }
